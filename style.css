@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+   
+  }
+
+
+/*  */
+
+body{
+   background-color:black;
+    color: white;
+
+}
+.contain{
+    width: 80%;
+    margin: 2rem 7rem;
+    
+}
+
+
+.navbar{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+
+.navbar-title{
+    color: rgb(230, 83, 60);
+font-family: Inter;
+font-size: 26px;
+font-weight: 800;
+font-style: italic;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2em;
+    font-family: Inter;
+font-size: 16px;
+font-weight: 800;
+
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 39px;
+padding:8px 20px 8px 20px;;
+
+}
+   .btn-orange{
+    border-radius: 46px;
+
+background: rgb(230, 83, 60);
+border: 1px solid rgb(230, 83, 60);
+
+
+   }
+
+   .menu p{
+    display: none;
+   }
+
+   .banner-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 900;
+   }
+
+   .font-style{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-style: italic;
+    font-size: 30px;
+
+   }
+   .banner-description{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+
+   }
+   .banner{
+    display: flex;
+  
+    justify-content: space-between;
+    
+   
+   }
+
+   .banner-details{
+    width: 50%;
+   }
+
+   .banner-img img{
+    width: 349px;
+height: 400px;
+left: 877px;
+top: 135px;
+   }
+   .red-ball{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+    border: 1px solid rgb(230, 83, 60);
+    text-align: center;
+   }
+
+   .video{
+    display: flex;
+    gap: 3%;
+    align-items: center;
+    width: 100px;
+    height: 45px;
+    padding: 5px;
+    position: absolute;
+margin-top: -100px;  
+margin-left: -20px;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.54);
+
+
+    
+   }
+   .video-description{
+    font-size: 10px;
+   }
+
+   .workout-video{
+    margin: 20px;
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.54);
+font-size: 10px;
+left: 1207px;
+top: 260px;
+
+
+
+   }
+   .workout-video h3{
+    font-size: 15px;
+    margin: 0 auto;
+   }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   @media screen and (max-width:576px) {
+   .contain{
+    width: 90%;
+    margin: 0 auto;
+    
+   }
+
+    
+    .menu h3{
+        display: none;
+    }
+
+    .menu p{
+        display: block;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+    }
+    
+   }
+
+
+
