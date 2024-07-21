@@ -243,6 +243,26 @@ background: rgb(34, 34, 34);
  }
 
 
+ .bmi-cal-details{
+    flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+height: 200px;
+width: 500px;
+margin-left: 30%;
+
+}
+
+.bmi-cal-details p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+
+}
+
+
 #footer{
     background: rgb(34, 34, 34);
 
@@ -395,7 +415,7 @@ margin-left: 160px;
 .footer-details{
     display: grid;
     grid-template-columns: repeat(1 , 1fr);
-    margin-left: 0;
+    margin-left:2%;
     gap: 1%;
  
    
@@ -410,6 +430,10 @@ margin-left: 160px;
  
     
  }
+ .get-started ul{
+margin-left: 2%;
+
+ }
  hr{
    
  width: 100%;
@@ -419,10 +443,18 @@ margin-left: 160px;
     text-align: left;
 
  }
- .get-started{
-    margin-left: 2px;
- }
+ 
 
+
+ .bmi-cal-details{
+    flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+margin: 0 auto;
+width: 100%;
+
+
+}
 
 
 }
