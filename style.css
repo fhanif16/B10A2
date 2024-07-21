@@ -57,6 +57,7 @@ padding:8px 20px 8px 20px;;
 
 background: rgb(230, 83, 60);
 border: 1px solid rgb(230, 83, 60);
+padding: 16px 40px 16px 40px;
 
 
    }
@@ -145,8 +146,9 @@ border-radius: 12px;
 backdrop-filter: blur(20px);
 background: rgba(48, 48, 48, 0.54);
 font-size: 10px;
-left: 1207px;
-top: 260px;
+margin-top: -300px;  
+margin-left: 250px;
+
 
 
 
@@ -155,6 +157,91 @@ top: 260px;
     font-size: 15px;
     margin: 0 auto;
    }
+
+   .habits{
+    text-align: center;
+   }
+   .habit-title{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 28px;
+font-weight: 900;
+
+   }
+   .habit-subtitle{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+
+   }
+   .habit-images{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 2%
+   }
+   .habit-img img{
+    width: 180px;
+height: 180px;
+border-radius: 50%;
+
+   }
+   .habit-img h3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+    
+   }
+
+   .habit-img p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.3px;
+text-align: center;
+   }
+
+   .run-extra{
+    display: flex;
+    justify-content: space-between;
+    gap: 20%;
+    
+}
+
+.run-extra-image img{
+   width: 100%;
+   height: 100%;
+   
+}
+.run-extra-title{
+    text-align: left;
+}
+
+.run-extra-title h1{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 2em;
+font-weight: 900;
+}
+
+.run-extra-title p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1em;
+font-weight: 400;
+}
+ #run-extra{
+    border-radius: 1em;
+
+background: rgb(34, 34, 34);
+    padding: 5%;
+
+ }
+
    
 
 
@@ -190,9 +277,83 @@ top: 260px;
     .banner{
         display: flex;
         flex-direction: column;
-    }
+        gap:5%;  
+        
     
    }
+   .banner-img img{
+    width: 200px;
+    margin-left: 2%;
+   
+   }
+
+   .banner-details{
+    width: 50%;
+   }
+   .btn{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+    
+   }
+
+   .btn button{
+
+  
+    font-size: 10px;
+    
+    text-align: center;
+    padding: 2px 5px 5px 2px;
+    border-radius: 10px;
+   
+    
+    
+   }
+   .workout-video{
+    margin: 20px;
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.54);
+font-size: 10px;
+margin-top: -300px;  
+margin-left: 160px;
+
+
+
+
+   }
+
+   .habit-images{
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    gap: 2%
+   }
+
+   .run-extra{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+    
+}
+
+#habits{
+    margin-bottom: 30%;
+}
+
+.run-extra-image img{
+    margin-top: 5%;
+}
+
+
+
+}
 
 
 
