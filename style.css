@@ -296,7 +296,122 @@ font-weight: 400;
     width: 50%;
  }
 
+ table, th, td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    padding: 2px;
+    margin: 5px;
+   
+  }
 
+  .bmi-chart{
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 300px;
+    
+  }
+
+  .option{
+    display: grid;
+    grid-template-columns:repeat(2 ,1fr);
+    gap: 5%;
+
+  }
+  .bmi-cal{
+    background: rgb(34, 34, 34);
+  }
+    
+
+
+
+    .bmi-table{
+        color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+
+    }
+
+    .calculator p{
+        color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400
+    }
+
+   .team-title{
+ text-align: center;
+ width: 501px;
+height: 120px;
+margin: 0 auto;
+
+ 
+   }
+
+   .team-title p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+   }
+
+   .team-details{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+  
+    background-color:rgb(34, 34, 34); 
+    margin-left: 5%;
+    
+   }
+
+   .team-detail img{
+    width: 226.67px;
+height:172px;
+border-radius: 18px;
+background: rgba(0, 0, 0, 0.2);
+margin-left: 5%;
+margin-top: 3%;
+margin-right: 5%;
+margin-bottom: 5%;
+padding: 20px;
+position: relative;
+
+   }
+
+   .team-name{
+    margin-top: -140px;
+    margin-left: 60px;
+    position: absolute;
+   }
+
+   .team-name h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 900;
+
+   }
+
+   .team-name p{
+    
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+
+   }
+ 
+
+   
+
+  
+  
+
+  
 
    
 
@@ -415,23 +530,29 @@ margin-left: 160px;
 .footer-details{
     display: grid;
     grid-template-columns: repeat(1 , 1fr);
-    margin-left:2%;
+    
+    margin-bottom: 15%;
+    
     gap: 1%;
  
    
     
  }
  .footer-title {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin-left: 0%;
+    margin-left: 0;
+   
+
    
  
     
  }
- .get-started ul{
-margin-left: 2%;
+
+ #footer{
+    margin-top: 10%;
+ }
+ .get-started ul p{
+margin-left: 7%;
+padding-left: 10%;
 
  }
  hr{
@@ -456,8 +577,96 @@ width: 100%;
 
 }
 
+.bmi-chart{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    margin-bottom: 35%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 400px;
+    width: 100%;
+    
+  }
+ 
+  .option{
+    display: grid;
+    grid-template-columns:repeat(2 ,1fr);
+    gap: 2%;
+   
+
+  }
+
+  .option input{
+    width: 100px;
+height: 10px
+  }
+
+  .option select{
+    width: 110px;
+    height: 20px;
+    
+
+
+  }
+
+  #bmi-cal{
+    width: 100%;
+    height: 500px;
+    background: rgba(48, 48, 48, 0.54);
+    margin-bottom: 20%;
+  
+  }
+
+  .calculator{
+    width: 100%;
+    
+   
+  }
+  .calculator p{
+    text-align:start;
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 11px;
+font-weight: 400;
+   
+    margin-bottom: 3px;
+  }
+
+  .team-title{
+    text-align: center;
+    width: 100%;
+  }
+
+  .team-details{
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+  
+    
+   }
+   .team-detail img{
+    width: 200px;
+height: 150px;
+border-radius: 18px;
+background: rgba(0, 0, 0, 0.2);
+margin-left: 5%;
+margin-top: 3%;
+margin-right: 10%;
+margin-bottom: 5%;
+padding: 20px;
+position: relative;
+
+
 
 }
+
+.team-name{
+    margin-top: -120px;
+    margin-left: 50px;
+    position: absolute;
+   }
+
+   }
 
 
 
