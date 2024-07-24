@@ -264,7 +264,8 @@ font-weight: 400;
 
 
 #footer{
-    background: rgb(34, 34, 34);
+    /* background-color: rgb(34, 34, 34); */
+    
 
 }
 
@@ -340,7 +341,7 @@ font-weight: 400;
 
     .calculator{
         height: 300px;
-        width: 700px;
+       
     }
 
     .calculator p{
@@ -376,8 +377,8 @@ font-weight: 400;
    }
 
    .team-detail img{
-    width: 226.67px;
-height:172px;
+    width: 300px;
+height:200px;
 border-radius: 18px;
 background: rgba(0, 0, 0, 0.2);
 margin-left: 5%;
@@ -393,6 +394,8 @@ position: relative;
     margin-top: -140px;
     margin-left: 60px;
     position: absolute;
+    
+     
    }
 
    .team-name h3{
@@ -411,6 +414,8 @@ position: relative;
     font-weight: 400;
 
    }
+   
+  
    .customer-review img{
     width: 400px;
     height: 300px;
@@ -432,32 +437,13 @@ position: relative;
 
    
 
-  
-  
-
-  
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
    @media screen and (max-width:576px) {
+
+    
    .contain{
-    width: 90%;
-    margin: 0 auto;
+    width: 80%;
+    margin: 2rem 3rem;
     
    }
 
@@ -469,7 +455,239 @@ position: relative;
     .menu p{
         display: block;
     }
+
+
     .banner{
+       display: flex;
+       flex-direction: column;
+       justify-content:flex-start;
+       align-items: flex-start;
+   
+    }
+
+    .banner-title{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 28px;
+        font-weight: 900;
+       }
+    
+      
+    
+   .btn-orange{
+    border-radius: 46px;
+
+background: rgb(230, 83, 60);
+border: 1px solid rgb(230, 83, 60);
+height: 30px;
+width: 100px;
+font-size: 10px;
+padding: 5px;
+
+
+
+
+   }
+   .btn{
+    display: flex;
+    gap:10px;
+    
+   }
+   
+
+   .banner-details{
+    width: 80%;
+   }
+   .banner-img img{
+    width: 249px;
+height: 300px;
+
+margin-top: 10%;
+   }
+   .video{
+    display: flex;
+    gap: 3%;
+    align-items: center;
+    width: 100px;
+    height: 45px;
+    padding: 5px;
+    position: absolute;
+margin-top: -100px;  
+margin-left: -10px;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.54);
+
+
+    
+   }
+   .workout-video{
+    margin: 20px;
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.54);
+font-size: 10px;
+margin-top: -200px;  
+margin-left: 150px;
+
+   }
+
+   .bmi-cal-details{
+   margin-left: 2%;
+   margin-top: 2%;
+   padding: 5px;
+
+}
+
+.bmi-cal{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.bmi-cal-details p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+width: 60%;
+
+
+}
+
+
+
+.bmi-chart{
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    
+    height: 100%
+   
+  
+  }
+
+  table, th, td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    padding: 6px;
+    margin: 5px;
+   width:250px;
+   height:50px;
+   
+  }
+  .bmi-table{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 10px;
+
+
+
+
+}
+
+.calculator{
+    height: 250px;
+    width: 300px;
+}
+
+.calculator p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 10px;
+
+}
+
+.option{
+    display: grid;
+    grid-template-columns:repeat(2 ,1fr);
+    gap: 5%;
+   
+
+  }
+
+  .option input{
+    height: 20px;
+    width: 100px;
+  }
+ #sex{
+    height: 25px;
+    width: 110px;
+ }
+ #Activity{
+    height: 25px;
+   
+ }
+ .team-title{
+    text-align: center;
+    width: 100%;
+  
+   margin: 0 auto;
+   
+    
+      }
+   
+    
+      .team-details{
+       display: grid;
+       grid-template-columns: repeat(1 , 1fr);
+     
+       background-color:rgb(34, 34, 34); 
+    
+       margin: 0 auto;
+       
+      }
+   
+      .team-detail img{
+       width: 200px;
+   height:150px;
+   border-radius: 18px;
+   background: rgba(0, 0, 0, 0.2);
+   margin-left: 5%;
+   margin-top: 3%;
+   margin-right: 5%;
+   margin-bottom: 5%;
+   padding: 20px;
+   position: relative;
+   
+      }
+   
+      .team-name{
+       margin-top: -140px;
+       margin-left: 60px;
+       position: absolute;
+       
+      }
+   
+      .team-name h3{
+       color: rgb(255, 255, 255);
+       font-family: Inter;
+       font-size: 20px;
+       font-weight: 900;
+   
+      }
+   
+      .team-name p{
+       
+       color: rgba(255, 255, 255, 0.5);
+       font-family: Inter;
+       font-size: 15px;
+       font-weight: 400;}
+
+       #meet-team{
+        margin-top: 2%;
+       }
+
+
+
+   
+
+    /* .banner{
         display: flex;
         flex-direction: column;
         gap:5%;  
@@ -504,8 +722,8 @@ position: relative;
    
     
     
-   }
-   .workout-video{
+   } */
+   /* .workout-video{
     margin: 20px;
     width: 100px;
     height: 50px;
@@ -522,7 +740,7 @@ margin-left: 160px;
 
 
 
-   }
+   } */
 
    .habit-images{
     display: grid;
@@ -551,7 +769,7 @@ margin-left: 160px;
     color: white;
 }
 
-.footer-details{
+/* .footer-details{
     display: grid;
     grid-template-columns: repeat(1 , 1fr);
     
@@ -688,7 +906,7 @@ position: relative;
     margin-top: -120px;
     margin-left: 50px;
     position: absolute;
-   }
+   } */
 
 
    .customer-reviews{
@@ -696,6 +914,7 @@ position: relative;
     grid-template-columns: repeat(1, 1fr);
     justify-content:space-evenly;
     gap: 2%;
+    
    }
 
    .customer-review img{
@@ -703,12 +922,36 @@ position: relative;
     height: 200px;
    }
 
-   #meet-team{
-    margin-top: 60%;
+   #footer{
+    margin-top: 20%;
+    margin-left: 2%;
+    padding: 5px;
    }
 
 
- table, th, td {
+   .footer-details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+   }
+
+   .footer-title{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0%;
+    padding-left: 0%;
+   }
+
+   .footer-menu p {
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 13px;
+font-weight: 400;
+   }
+
+
+ /* table, th, td {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-collapse: collapse;
     padding: 2px;
@@ -716,7 +959,7 @@ position: relative;
    width:200px;
    height:50px;
    
-  }
+  } */
 
 
    }
