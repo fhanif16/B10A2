@@ -309,19 +309,25 @@ font-weight: 400;
 
   .bmi-chart{
     display: flex;
-    justify-content: space-between;
-    gap: 10%;
-    margin-bottom: 10%;
+    gap: 50px;
+   
+    /* margin-bottom: 10%;
     margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 10%; */
+    justify-content: center;
+    align-items: center;
     height: 500px;
+    
+  }
+  #Activity{
+    width: 100%;
     
   }
 
   .option{
     display: grid;
     grid-template-columns:repeat(2 ,1fr);
-    gap: 5%;
+    /* gap: 5%; */
 
   }
   .bmi-cal{
@@ -403,6 +409,7 @@ position: relative;
     font-family: Inter;
     font-size: 20px;
     font-weight: 900;
+    margin-bottom: 0px;
 
    }
 
@@ -565,9 +572,19 @@ width: 60%;
 .bmi-chart{
     display: flex;
     flex-direction: column;
-    gap: 2%;
+  
+ 
+    
     
     height: 100%
+
+   
+   
+    /* margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%; */
+  
+    
    
   
   }
@@ -606,21 +623,15 @@ font-size: 10px;
 .option{
     display: grid;
     grid-template-columns:repeat(2 ,1fr);
-    gap: 5%;
+    
    
 
   }
 
-  .option input{
-    height: 20px;
-    width: 100px;
-  }
- #sex{
-    height: 25px;
-    width: 110px;
- }
+ 
  #Activity{
-    height: 25px;
+ 
+    width: 100%;
    
  }
  .team-title{
